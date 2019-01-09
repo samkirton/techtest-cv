@@ -1,0 +1,31 @@
+{
+  "name": "Samuel Kirton",
+  "title": "Senior Android Developer",
+  "description": "Mobile App Developer experienced in developing solutions from requirements to production for leading financial institutions in the UK. I strive to develop simple solutions to complex problems, with meaningful test coverage and responsive user interfaces.",
+  "experience": [
+    {
+      "title": "EOS Global Hackathon",
+      "dateRange": "November 2018 - December 2018",
+      "description": "I put together a multidisciplinary team of past colleagues for the EOS Global hackathon in London...",
+      "links": [
+        {
+          "name": "eos-jvm",
+          "url": "https://github.com/memtrip/eos-jvm"
+        },
+        {
+          "name": "EOS REACH wallet",
+          "url": "https://github.com/memtrip/eosreach-android"
+        }
+      ]
+    },
+    {
+      "title": "RBS - Senior Android Developer",
+      "dateRange": "May 2018 - November 2018",
+      "description": "At RBS I worked alongside another Senior Android Developer to setup the foundations of a new payments mobile app..."
+    }
+  ],
+  "stats": {
+    "yearsInIndustry": "6",
+    "appReach": "1.25 million"
+  }
+}

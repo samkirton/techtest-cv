@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hsbc.techtest.app.cv.ui.LinkButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/experience_item_view_title_label"
+    style="@style/LinkButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>

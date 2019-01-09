@@ -1,0 +1,7 @@
+<resources>
+    <string name="cv_error_body">We could not load the CV.</string>
+    <string name="cv_industry_exp">Experience</string>
+    <string name="cv_users_reached">App Installs</string>
+    <string name="cv_years">%s years</string>
+    <string name="cv_job_history">Employment History</string>
+</resources>

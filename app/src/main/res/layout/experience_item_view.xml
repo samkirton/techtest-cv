@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/app_padding_medium">
+
+    <TextView
+        android:id="@+id/experience_item_view_title_label"
+        style="@style/Typography.H5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_padding_medium"
+        android:layout_marginRight="@dimen/app_padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Santander - Senior Android Developer"/>
+
+    <TextView
+        android:id="@+id/experience_item_view_date_range_label"
+        style="@style/Typography.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_padding_medium"
+        android:layout_marginTop="@dimen/app_padding_tiny"
+        android:layout_marginRight="@dimen/app_padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experience_item_view_title_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="March 2016 - April 2017"/>
+
+    <TextView
+        android:id="@+id/experience_item_view_description_label"
+        style="@style/Typography.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_padding_medium"
+        android:layout_marginTop="@dimen/app_padding_tiny"
+        android:layout_marginRight="@dimen/app_padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experience_item_view_date_range_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="At ISBAN I worked as part of an XP team to develop a new consumer banking app that was..."/>
+
+    <com.hsbc.techtest.app.cv.ui.LinksViewGroup
+        android:id="@+id/experience_item_view_linksViewGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_padding_medium"
+        android:layout_marginTop="@dimen/app_padding_small"
+        android:layout_marginRight="@dimen/app_padding_medium"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experience_item_view_description_label"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
