@@ -1,7 +1,10 @@
 package com.hsbc.techtest
 
 import com.hsbc.techtest.api.ApiConfig
-import com.hsbc.techtest.app.*
+import com.hsbc.techtest.app.AppComponent
+import com.hsbc.techtest.app.BaseInjectorApplication
+import com.hsbc.techtest.app.Stub
+import com.hsbc.techtest.app.StubInterceptor
 import dagger.android.AndroidInjector
 import java.util.Arrays.asList
 

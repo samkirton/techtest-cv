@@ -69,7 +69,7 @@ class CvActivity
     override fun showProgress() {
         cv_activity_progressBar.visible()
         cv_activity_errorRetryView.gone()
-        cv_activity_experience_container.gone()
+        cv_activity_appbarlayout.gone()
     }
 
     override fun showError() {
@@ -80,7 +80,7 @@ class CvActivity
 
     override fun showCv(cv: CvJson) {
         cv_activity_progressBar.gone()
-        cv_activity_experience_container.visible()
+        cv_activity_appbarlayout.visible()
         cv_activity_name.text = cv.name
         cv_activity_job_title_value.text = cv.title
         cv_activity_industry_exp_value.text = getString(R.string.cv_years, cv.stats.yearsInIndustry)

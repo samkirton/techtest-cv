@@ -4,7 +4,6 @@ import android.app.Application
 import androidx.test.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
 import com.hsbc.techtest.api.ApiConfig
-import com.hsbc.techtest.app.DaggerAppComponent
 import com.hsbc.techtest.app.Stub
 import com.hsbc.techtest.app.StubInterceptor
 import com.hsbc.techtest.app.cv.CvActivity
